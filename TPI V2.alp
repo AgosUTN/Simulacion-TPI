@@ -1335,7 +1335,7 @@
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<Properties SourceId="1570719602538" TargetId="1570719602550" External="false" Constant="false" Array="false">
-						<Formula><![CDATA[m0_5/60]]></Formula>
+						<Formula><![CDATA[m0_5/611111]]></Formula>
 						<Color/>
 						<ValveIndex>1</ValveIndex>
 						<Points>
