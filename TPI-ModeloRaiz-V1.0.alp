@@ -7914,9 +7914,26 @@
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
+					<Id>1760743360114</Id>
+					<Name><![CDATA[mortPrematura]]></Name>
+					<Description><![CDATA[Se usa el parámetro para facilitar experimentos.]]></Description>
+					<X>680</X><Y>380</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[mortPrematuraInicial
+]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
 					<Id>1760810870462</Id>
 					<Name><![CDATA[tasaDesempleo]]></Name>
-					<X>140</X><Y>-310</Y>
+					<X>130</X><Y>-260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7925,38 +7942,6 @@
 						<Type><![CDATA[double]]></Type>        
 						<InitialValue Class="CodeValue">
 							<Code><![CDATA[tasaDesempleoInicial]]></Code>
-						</InitialValue>
-					</Properties>
-				</Variable>
-				<Variable Class="PlainVariable">
-					<Id>1760908871323</Id>
-					<Name><![CDATA[salarioPromedioJoven]]></Name>
-					<X>360</X><Y>-110</Y>
-					<Label><X>-85</X><Y>20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
-						<Type><![CDATA[double]]></Type>        
-						<InitialValue Class="CodeValue">
-							<Code><![CDATA[salarioPromedioJovenInicial
-]]></Code>
-						</InitialValue>
-					</Properties>
-				</Variable>
-				<Variable Class="PlainVariable">
-					<Id>1760908888971</Id>
-					<Name><![CDATA[salarioPromedioAdulta]]></Name>
-					<X>490</X><Y>-100</Y>
-					<Label><X>-55</X><Y>25</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
-						<Type><![CDATA[double]]></Type>        
-						<InitialValue Class="CodeValue">
-							<Code><![CDATA[salarioPromedioAdultaInicial
-]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -7978,7 +7963,7 @@
 				<Variable Class="AuxVariable">
 					<Id>1760106183856</Id>
 					<Name><![CDATA[balanceFondoSalud]]></Name>
-					<X>700</X><Y>-420</Y>
+					<X>710</X><Y>-430</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8114,7 +8099,7 @@
 				<Variable Class="AuxVariable">
 					<Id>1760106258797</Id>
 					<Name><![CDATA[relacionDependientesActivos]]></Name>
-					<X>1360</X><Y>-460</Y>
+					<X>1220</X><Y>-440</Y>
 					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8449,7 +8434,7 @@
 				<Variable Class="StockVariable">
 					<Id>1760106184006</Id>
 					<Name><![CDATA[m0_5]]></Name>
-					<X>165.037</X><Y>514.308</Y>
+					<X>165.037</X><Y>604.308</Y>
 					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8465,7 +8450,7 @@
 				<Variable Class="StockVariable">
 					<Id>1760106184008</Id>
 					<Name><![CDATA[m5_10]]></Name>
-					<X>260.257</X><Y>514.308</Y>
+					<X>260.257</X><Y>604.308</Y>
 					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8481,7 +8466,7 @@
 				<Variable Class="StockVariable">
 					<Id>1760106184010</Id>
 					<Name><![CDATA[m10_15]]></Name>
-					<X>355.478</X><Y>514.308</Y>
+					<X>355.478</X><Y>604.308</Y>
 					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8497,7 +8482,7 @@
 				<Variable Class="StockVariable">
 					<Id>1760106184012</Id>
 					<Name><![CDATA[m15_20]]></Name>
-					<X>450.699</X><Y>514.308</Y>
+					<X>450.699</X><Y>604.308</Y>
 					<Label><X>-25.699</X><Y>-19.308</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9227,7 +9212,7 @@
 				<Variable Class="Flow">
 					<Id>1760106184676</Id>
 					<Name><![CDATA[flowM10]]></Name>
-					<X>260.257</X><Y>514.308</Y>
+					<X>260.257</X><Y>604.308</Y>
 					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9246,7 +9231,7 @@
 				<Variable Class="Flow">
 					<Id>1760106184678</Id>
 					<Name><![CDATA[flowM15]]></Name>
-					<X>355.478</X><Y>514.308</Y>
+					<X>355.478</X><Y>604.308</Y>
 					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9265,7 +9250,7 @@
 				<Variable Class="Flow">
 					<Id>1760106184680</Id>
 					<Name><![CDATA[flowM20]]></Name>
-					<X>450.699</X><Y>514.308</Y>
+					<X>450.699</X><Y>604.308</Y>
 					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9276,8 +9261,8 @@
 						<ValveIndex>1</ValveIndex>
 						<Points>
 							<Point><X>0</X><Y>0</Y></Point>
-							<Point><X>45</X><Y>90</Y></Point>
-							<Point><X>95</X><Y>90</Y></Point>
+							<Point><X>45</X><Y>0</Y></Point>
+							<Point><X>93</X><Y>0</Y></Point>
 						</Points>
 					</Properties>
 				</Variable>
@@ -9590,7 +9575,7 @@
 				<Variable Class="Flow">
 					<Id>1760106184714</Id>
 					<Name><![CDATA[femaleBirthRate]]></Name>
-					<X>30</X><Y>510</Y>
+					<X>40</X><Y>600</Y>
 					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9601,8 +9586,8 @@
 						<ValveIndex>1</ValveIndex>
 						<Points>
 							<Point><X>0</X><Y>0</Y></Point>
-							<Point><X>60</X><Y>0</Y></Point>
-							<Point><X>135</X><Y>4</Y></Point>
+							<Point><X>62</X><Y>2</Y></Point>
+							<Point><X>125</X><Y>4</Y></Point>
 						</Points>
 					</Properties>
 				</Variable>
@@ -9990,7 +9975,7 @@
 				<Variable Class="Flow">
 					<Id>1760106184756</Id>
 					<Name><![CDATA[flow67]]></Name>
-					<X>165</X><Y>514</Y>
+					<X>165</X><Y>604</Y>
 					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10009,7 +9994,7 @@
 				<Variable Class="Flow">
 					<Id>1760106184758</Id>
 					<Name><![CDATA[flow68]]></Name>
-					<X>260</X><Y>514</Y>
+					<X>260</X><Y>604</Y>
 					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10028,7 +10013,7 @@
 				<Variable Class="Flow">
 					<Id>1760106184760</Id>
 					<Name><![CDATA[flow69]]></Name>
-					<X>355</X><Y>514</Y>
+					<X>355</X><Y>604</Y>
 					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10047,7 +10032,7 @@
 				<Variable Class="Flow">
 					<Id>1760106184762</Id>
 					<Name><![CDATA[flow70]]></Name>
-					<X>450</X><Y>514</Y>
+					<X>450</X><Y>604</Y>
 					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10058,8 +10043,8 @@
 						<ValveIndex>1</ValveIndex>
 						<Points>
 							<Point><X>0</X><Y>0</Y></Point>
-							<Point><X>0</X><Y>106</Y></Point>
-							<Point><X>0</X><Y>146</Y></Point>
+							<Point><X>0</X><Y>46</Y></Point>
+							<Point><X>0</X><Y>86</Y></Point>
 						</Points>
 					</Properties>
 				</Variable>
@@ -10523,7 +10508,7 @@
 				<Variable Class="Flow">
 					<Id>1760106184812</Id>
 					<Name><![CDATA[flowM5]]></Name>
-					<X>165</X><Y>514</Y>
+					<X>165</X><Y>604</Y>
 					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10548,13 +10533,13 @@
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Properties TargetId="1760106184054" External="false" Constant="false" Array="false">
-						<Formula><![CDATA[((poblacionJoven * salarioPromedioJoven)
- + ((v60_65+ poblacionAdulta) * salarioPromedioAdulta))
+						<Formula><![CDATA[((poblacionJoven * salarioPromedioMensualJoven)
+ + ((v60_65+ poblacionAdulta) * salarioPromedioMensualAdulta))
 * tasaContribucion * (1 - tasaDesempleo) * proporcionEmpleoFormal
 +
-((poblacionJoven * salarioPromedioJoven)
- + ((v60_65+ poblacionAdulta) * salarioPromedioAdulta))
-* (tasaContribucion * tasaContribucionInformalesRelativa) * (1 - tasaDesempleo) * (1-proporcionEmpleoFormal)
+((poblacionJoven * salarioPromedioMensualJoven)
+ + ((v60_65+ poblacionAdulta) * salarioPromedioMensualAdulta))
+* (tasaContribucion * 0.20) * (1 - tasaDesempleo) * (1-proporcionEmpleoFormal)
 ]]></Formula>
 						<Color/>
 						<ValveIndex>3</ValveIndex>
@@ -10581,8 +10566,8 @@
 + (poblacionInfantil * gastoPromedioInfantil)
 + (poblacionJoven * gastoPromedioJoven)
 + (poblacionAdulta * gastoPromedioAdulta)
-+ (poblacionVieja * gastoPromedioAdultaMayor)
-+ (poblacionMuyVieja * gastoPromedioAdultaMuyMayor)) * proporcionSaludPublica]]></Formula>
++ (poblacionVieja * gastoPromedioVieja)
++ (poblacionMuyVieja * gastoPromedioMuyVieja)) * proporcionSaludPublica]]></Formula>
 						<Color/>
 						<ValveIndex>2</ValveIndex>
 						<Points>
@@ -10595,9 +10580,33 @@
 					</Properties>
 				</Variable>
 				<Variable Class="Parameter">
+					<Id>1760106184068</Id>
+					<Name><![CDATA[salarioPromedioMensualJoven]]></Name>
+					<X>350</X><Y>-120</Y>
+					<Label><X>-160</X><Y>30</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[780000]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1760106184066</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
 					<Id>1760106184072</Id>
 					<Name><![CDATA[tasaContribucionInicial]]></Name>
-					<X>240</X><Y>-420</Y>
+					<X>340</X><Y>-420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10739,10 +10748,34 @@
 					</Properties>                 
 				</Variable>
 				<Variable Class="Parameter">
+					<Id>1760106184100</Id>
+					<Name><![CDATA[salarioPromedioMensualAdulta]]></Name>
+					<X>440</X><Y>-120</Y>
+					<Label><X>-70</X><Y>30</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[1000000]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1760106184098</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
 					<Id>1760106184104</Id>
 					<Name><![CDATA[gastoPromedioPrematura]]></Name>
-					<X>840</X><Y>-160</Y>
-					<Label><X>-75</X><Y>25</Y></Label>
+					<X>910</X><Y>-100</Y>
+					<Label><X>-100</X><Y>25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -10765,7 +10798,7 @@
 				<Variable Class="Parameter">
 					<Id>1760106184108</Id>
 					<Name><![CDATA[gastoPromedioInfantil]]></Name>
-					<X>960</X><Y>-130</Y>
+					<X>1030</X><Y>-100</Y>
 					<Label><X>-60</X><Y>25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10789,8 +10822,8 @@
 				<Variable Class="Parameter">
 					<Id>1760106184112</Id>
 					<Name><![CDATA[gastoPromedioJoven]]></Name>
-					<X>1060</X><Y>-140</Y>
-					<Label><X>-50</X><Y>20</Y></Label>
+					<X>1160</X><Y>-100</Y>
+					<Label><X>-50</X><Y>25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -10813,7 +10846,7 @@
 				<Variable Class="Parameter">
 					<Id>1760106184116</Id>
 					<Name><![CDATA[gastoPromedioAdulta]]></Name>
-					<X>860</X><Y>-120</Y>
+					<X>900</X><Y>-40</Y>
 					<Label><X>-65</X><Y>25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10836,9 +10869,9 @@
 				</Variable>
 				<Variable Class="Parameter">
 					<Id>1760106184120</Id>
-					<Name><![CDATA[gastoPromedioAdultaMayor]]></Name>
-					<X>990</X><Y>-60</Y>
-					<Label><X>-70</X><Y>20</Y></Label>
+					<Name><![CDATA[gastoPromedioVieja]]></Name>
+					<X>1030</X><Y>-40</Y>
+					<Label><X>-45</X><Y>20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -10860,8 +10893,8 @@
 				</Variable>
 				<Variable Class="Parameter">
 					<Id>1760106184124</Id>
-					<Name><![CDATA[gastoPromedioAdultaMuyMayor]]></Name>
-					<X>1130</X><Y>-70</Y>
+					<Name><![CDATA[gastoPromedioMuyVieja]]></Name>
+					<X>1170</X><Y>-50</Y>
 					<Label><X>-50</X><Y>30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10885,8 +10918,8 @@
 				<Variable Class="Parameter">
 					<Id>1760106184128</Id>
 					<Name><![CDATA[tasaNacimientos]]></Name>
-					<X>150</X><Y>400</Y>
-					<Label><X>-105</X><Y>15</Y></Label>
+					<X>180</X><Y>380</Y>
+					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -10909,8 +10942,8 @@
 				<Variable Class="Parameter">
 					<Id>1760726404329</Id>
 					<Name><![CDATA[pNormalToExpansion]]></Name>
-					<X>-430</X><Y>-750</Y>
-					<Label><X>-55</X><Y>20</Y></Label>
+					<X>-680</X><Y>-640</Y>
+					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -10933,7 +10966,7 @@
 				<Variable Class="Parameter">
 					<Id>1760727372866</Id>
 					<Name><![CDATA[factorCambioSalarioPromedio_Normal]]></Name>
-					<X>-870</X><Y>-800</Y>
+					<X>-760</X><Y>-720</Y>
 					<Label><X>-70</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10957,7 +10990,7 @@
 				<Variable Class="Parameter">
 					<Id>1760727412566</Id>
 					<Name><![CDATA[factorCambioSalarioPromedio_Expansion]]></Name>
-					<X>-430</X><Y>-800</Y>
+					<X>-540</X><Y>-720</Y>
 					<Label><X>-70</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10971,6 +11004,54 @@
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1760727412564</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1760742703096</Id>
+					<Name><![CDATA[factorCambioMortalidad_Normal]]></Name>
+					<X>-760</X><Y>-680</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[1]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1760742703080</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1760742794102</Id>
+					<Name><![CDATA[factorCambioMortalidad_Expansion]]></Name>
+					<X>-540</X><Y>-680</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[0.98]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1760742794100</Id>
 							<EditorContolType>TEXT_BOX</EditorContolType>
 							<MinSliderValue><![CDATA[0]]></MinSliderValue>
 							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
@@ -11005,7 +11086,7 @@
 				<Variable Class="Parameter">
 					<Id>1760810760895</Id>
 					<Name><![CDATA[proporcionSaludPublica]]></Name>
-					<X>1020</X><Y>-380</Y>
+					<X>1380</X><Y>-340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11029,7 +11110,7 @@
 				<Variable Class="Parameter">
 					<Id>1760810858653</Id>
 					<Name><![CDATA[tasaDesempleoInicial]]></Name>
-					<X>140</X><Y>-280</Y>
+					<X>130</X><Y>-220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11053,8 +11134,8 @@
 				<Variable Class="Parameter">
 					<Id>1760812408624</Id>
 					<Name><![CDATA[proporcionEmpleoFormal]]></Name>
-					<X>210</X><Y>-210</Y>
-					<Label><X>-70</X><Y>20</Y></Label>
+					<X>130</X><Y>-120</Y>
+					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -11074,303 +11155,15 @@
 						</ParameterEditor>
 					</Properties>                 
 				</Variable>
-				<Variable Class="Parameter">
-					<Id>1760842368520</Id>
-					<Name><![CDATA[tasaContribucionInformalesRelativa]]></Name>
-					<X>440</X><Y>-400</Y>
-					<Label><X>-10</X><Y>-20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[double]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[0.40]]></Code>
-						</DefaultValue>
-						<ParameterEditor>
-							<Id>1760842368518</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-				<Variable Class="Parameter">
-					<Id>1760901295274</Id>
-					<Name><![CDATA[mortPrematura]]></Name>
-					<X>240</X><Y>390</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[double]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<ParameterEditor>
-							<Id>1760901295272</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-				<Variable Class="Parameter">
-					<Id>1760909063399</Id>
-					<Name><![CDATA[salarioPromedioJovenInicial]]></Name>
-					<X>350</X><Y>-60</Y>
-					<Label><X>-80</X><Y>20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[double]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[780000]]></Code>
-						</DefaultValue>
-						<ParameterEditor>
-							<Id>1760909063397</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-				<Variable Class="Parameter">
-					<Id>1760909129991</Id>
-					<Name><![CDATA[salarioPromedioAdultaInicial]]></Name>
-					<X>500</X><Y>-40</Y>
-					<Label><X>-75</X><Y>20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[double]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[1000000]]></Code>
-						</DefaultValue>
-						<ParameterEditor>
-							<Id>1760909129989</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-				<Variable Class="Parameter">
-					<Id>1760917306773</Id>
-					<Name><![CDATA[pExpansionToNormal]]></Name>
-					<X>-870</X><Y>-750</Y>
-					<Label><X>-60</X><Y>25</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[double]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<ParameterEditor>
-							<Id>1760917306771</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-				<Variable Class="Parameter">
-					<Id>1760917360964</Id>
-					<Name><![CDATA[pNormalToRecesion]]></Name>
-					<X>-670</X><Y>-750</Y>
-					<Label><X>-50</X><Y>25</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[double]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<ParameterEditor>
-							<Id>1760917360962</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-				<Variable Class="Parameter">
-					<Id>1760917409028</Id>
-					<Name><![CDATA[factorCambioSalarioPromedio_Recesion]]></Name>
-					<X>-670</X><Y>-800</Y>
-					<Label><X>-50</X><Y>-30</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[double]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<ParameterEditor>
-							<Id>1760917409026</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-				<Variable Class="Parameter">
-					<Id>1760917454863</Id>
-					<Name><![CDATA[pRecesionToNormal]]></Name>
-					<X>-870</X><Y>-690</Y>
-					<Label><X>-60</X><Y>20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[double]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<ParameterEditor>
-							<Id>1760917454861</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-				<Variable Class="Parameter">
-					<Id>1760917484895</Id>
-					<Name><![CDATA[pRecesionToCrisis]]></Name>
-					<X>-200</X><Y>-750</Y>
-					<Label><X>-50</X><Y>20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[double]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<ParameterEditor>
-							<Id>1760917484893</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-				<Variable Class="Parameter">
-					<Id>1760917541856</Id>
-					<Name><![CDATA[factorCambioSalarioPromedio_Crisis]]></Name>
-					<X>-200</X><Y>-800</Y>
-					<Label><X>-65</X><Y>-30</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[double]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<ParameterEditor>
-							<Id>1760917541854</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-				<Variable Class="Parameter">
-					<Id>1760917640958</Id>
-					<Name><![CDATA[pCrisisToRecesion]]></Name>
-					<X>-670</X><Y>-690</Y>
-					<Label><X>-45</X><Y>20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[double]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<ParameterEditor>
-							<Id>1760917640956</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-				<Variable Class="Parameter">
-					<Id>1760918431455</Id>
-					<Name><![CDATA[factorCambioTasaEmpleo_Normal]]></Name>
-					<X>-870</X><Y>-865</Y>
-					<Label><X>-70</X><Y>-30</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[double]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[1]]></Code>
-						</DefaultValue>
-						<ParameterEditor>
-							<Id>1760918431453</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-				<Variable Class="Parameter">
-					<Id>1760918459315</Id>
-					<Name><![CDATA[factorCambioTasaEmpleo_Recesion]]></Name>
-					<X>-670</X><Y>-860</Y>
-					<Label><X>-70</X><Y>-30</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[double]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[1]]></Code>
-						</DefaultValue>
-						<ParameterEditor>
-							<Id>1760918459313</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
 			</Variables>
 			<Dependences>
 				<Link SourceId="1760106184128" TargetId="1760106184712" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>-30</X><Y>-180</Y></Direction>
+					<Direction><X>-60</X><Y>-160</Y></Direction>
 					<Id>1760106184130</Id>
 					<Name><![CDATA[tasaNacimientos - maleBirthRate]]></Name>
-					<X>150</X><Y>400</Y>
+					<X>180</X><Y>380</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11382,10 +11175,10 @@
 				<Link SourceId="1760106184128" TargetId="1760106184714" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>-48</X><Y>112</Y></Direction>
+					<Direction><X>-78</X><Y>222</Y></Direction>
 					<Id>1760106184132</Id>
 					<Name><![CDATA[tasaNacimientos - femaleBirthRate]]></Name>
-					<X>150</X><Y>400</Y>
+					<X>180</X><Y>380</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11394,40 +11187,40 @@
 					<LineWidth>1</LineWidth>
 					<Delay>false</Delay>
 				</Link>
-				<Link SourceId="1760901295274" TargetId="1760106184716" Polarity="null">
+				<Link SourceId="1760743360114" TargetId="1760106184716" Polarity="null">
 					<Height>-12.24</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>-60</X><Y>-210</Y></Direction>
+					<Direction><X>-500</X><Y>-200</Y></Direction>
 					<Id>1760106184134</Id>
 					<Name><![CDATA[mortPrematura - flow46]]></Name>
-					<X>240</X><Y>390</Y>
+					<X>680</X><Y>380</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
-					<Color/>
+					<Color>-1</Color>
 					<LineWidth>1</LineWidth>
 					<Delay>false</Delay>
 				</Link>
-				<Link SourceId="1760901295274" TargetId="1760106184756" Polarity="null">
+				<Link SourceId="1760743360114" TargetId="1760106184756" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>-78</X><Y>162</Y></Direction>
+					<Direction><X>-518</X><Y>262</Y></Direction>
 					<Id>1760106184136</Id>
 					<Name><![CDATA[mortPrematura - flow67]]></Name>
-					<X>240</X><Y>390</Y>
+					<X>680</X><Y>380</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
-					<Color/>
+					<Color>-1</Color>
 					<LineWidth>1</LineWidth>
 					<Delay>false</Delay>
 				</Link>
 				<Link SourceId="1760106184080" TargetId="1760106184758" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>-540</X><Y>170</Y></Direction>
+					<Direction><X>-543</X><Y>268</Y></Direction>
 					<Id>1760106184138</Id>
 					<Name><![CDATA[mortInfantil - flow68]]></Name>
 					<X>800</X><Y>380</Y>
@@ -11475,7 +11268,7 @@
 					<Direction><X>45</X><Y>0</Y></Direction>
 					<Id>1760106184144</Id>
 					<Name><![CDATA[m5_10 - flowM10]]></Name>
-					<X>260</X><Y>514</Y>
+					<X>260</X><Y>604</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11490,7 +11283,7 @@
 					<Direction><X>35</X><Y>0</Y></Direction>
 					<Id>1760106184146</Id>
 					<Name><![CDATA[m10_15 - flowM15]]></Name>
-					<X>355</X><Y>514</Y>
+					<X>355</X><Y>604</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11502,10 +11295,10 @@
 				<Link SourceId="1760106184012" TargetId="1760106184680" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>45</X><Y>90</Y></Direction>
+					<Direction><X>45</X><Y>0</Y></Direction>
 					<Id>1760106184148</Id>
 					<Name><![CDATA[m15_20 - flowM20]]></Name>
-					<X>450</X><Y>514</Y>
+					<X>450</X><Y>604</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12087,10 +11880,10 @@
 				<Link SourceId="1760106184006" TargetId="1760106183852" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>235</X><Y>-174</Y></Direction>
+					<Direction><X>235</X><Y>-264</Y></Direction>
 					<Id>1760106184226</Id>
 					<Name><![CDATA[m0_5 - Poblacion]]></Name>
-					<X>165</X><Y>514</Y>
+					<X>165</X><Y>604</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12102,10 +11895,10 @@
 				<Link SourceId="1760106184008" TargetId="1760106183852" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>140</X><Y>-174</Y></Direction>
+					<Direction><X>140</X><Y>-264</Y></Direction>
 					<Id>1760106184228</Id>
 					<Name><![CDATA[m5_10 - Poblacion]]></Name>
-					<X>260</X><Y>514</Y>
+					<X>260</X><Y>604</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12117,10 +11910,10 @@
 				<Link SourceId="1760106184010" TargetId="1760106183852" Polarity="null">
 					<Height>0.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>45</X><Y>-174</Y></Direction>
+					<Direction><X>45</X><Y>-264</Y></Direction>
 					<Id>1760106184230</Id>
 					<Name><![CDATA[m10_15 - Poblacion]]></Name>
-					<X>355</X><Y>514</Y>
+					<X>355</X><Y>604</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12582,7 +12375,7 @@
 				<Link SourceId="1760106183852" TargetId="1760106184714" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>-298</X><Y>172</Y></Direction>
+					<Direction><X>-298</X><Y>262</Y></Direction>
 					<Id>1760106184292</Id>
 					<Name><![CDATA[Poblacion - femaleBirthRate]]></Name>
 					<X>400</X><Y>340</Y>
@@ -12612,10 +12405,10 @@
 				<Link SourceId="1760106184012" TargetId="1760106183852" Polarity="null">
 					<Height>0.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>-50</X><Y>-174</Y></Direction>
+					<Direction><X>-50</X><Y>-264</Y></Direction>
 					<Id>1760106184296</Id>
 					<Name><![CDATA[m15_20 - Poblacion]]></Name>
-					<X>450</X><Y>514</Y>
+					<X>450</X><Y>604</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12930,7 +12723,7 @@
 					<Direction><X>-3</X><Y>38</Y></Direction>
 					<Id>1760106184338</Id>
 					<Name><![CDATA[m0_5 - flow67]]></Name>
-					<X>165</X><Y>514</Y>
+					<X>165</X><Y>604</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12945,7 +12738,7 @@
 					<Direction><X>-3</X><Y>44</Y></Direction>
 					<Id>1760106184340</Id>
 					<Name><![CDATA[m5_10 - flow68]]></Name>
-					<X>260</X><Y>514</Y>
+					<X>260</X><Y>604</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12960,7 +12753,7 @@
 					<Direction><X>2</X><Y>44</Y></Direction>
 					<Id>1760106184342</Id>
 					<Name><![CDATA[m10_15 - flow69]]></Name>
-					<X>355</X><Y>514</Y>
+					<X>355</X><Y>604</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12972,10 +12765,10 @@
 				<Link SourceId="1760106184012" TargetId="1760106184762" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>0</X><Y>106</Y></Direction>
+					<Direction><X>-3</X><Y>54</Y></Direction>
 					<Id>1760106184344</Id>
 					<Name><![CDATA[m15_20 - flow70]]></Name>
-					<X>450</X><Y>514</Y>
+					<X>450</X><Y>604</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13272,7 +13065,7 @@
 				<Link SourceId="1760106184080" TargetId="1760106184760" Polarity="null">
 					<Height>-10.578</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>-443</X><Y>178</Y></Direction>
+					<Direction><X>-443</X><Y>268</Y></Direction>
 					<Id>1760106184384</Id>
 					<Name><![CDATA[mortInfantil - flow69]]></Name>
 					<X>800</X><Y>380</Y>
@@ -13485,7 +13278,7 @@
 					<Direction><X>47</X><Y>0</Y></Direction>
 					<Id>1760106184418</Id>
 					<Name><![CDATA[m0_5 - flowM5]]></Name>
-					<X>165</X><Y>514</Y>
+					<X>165</X><Y>604</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13497,7 +13290,7 @@
 				<Link SourceId="1760106184054" TargetId="1760106183856" Polarity="null">
 					<Height>53.691</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>130</X><Y>-150</Y></Direction>
+					<Direction><X>140</X><Y>-160</Y></Direction>
 					<Id>1760106184422</Id>
 					<Name><![CDATA[recaudacionFondoSalud - balanceFondoSalud]]></Name>
 					<X>570</X><Y>-270</Y>
@@ -13512,7 +13305,7 @@
 				<Link SourceId="1760106184056" TargetId="1760106183856" Polarity="null">
 					<Height>-50.821</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>-130</X><Y>-150</Y></Direction>
+					<Direction><X>-120</X><Y>-160</Y></Direction>
 					<Id>1760106184424</Id>
 					<Name><![CDATA[gastosEnSalud - balanceFondoSalud]]></Name>
 					<X>830</X><Y>-270</Y>
@@ -13572,10 +13365,10 @@
 				<Link SourceId="1760106184006" TargetId="1760106183860" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>515</X><Y>-174</Y></Direction>
+					<Direction><X>515</X><Y>-264</Y></Direction>
 					<Id>1760106184432</Id>
 					<Name><![CDATA[m0_5 - poblacionPrematura]]></Name>
-					<X>165</X><Y>514</Y>
+					<X>165</X><Y>604</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13602,10 +13395,24 @@
 				<Link SourceId="1760106184010" TargetId="1760106183862" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>445</X><Y>-174</Y></Direction>
+					<Direction><X>445</X><Y>-264</Y></Direction>
 					<Id>1760106184436</Id>
 					<Name><![CDATA[m10_15 - poblacionInfantil]]></Name>
-					<X>355</X><Y>514</Y>
+					<X>355</X><Y>604</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Color>-1</Color>
+					<LineWidth>1</LineWidth>
+					<Delay>false</Delay>
+				</Link>
+				<Link Polarity="null">
+					<Height>20.0</Height>
+					<PolarityPosition>0.95</PolarityPosition>
+					<Direction><X>540</X><Y>-264</Y></Direction>
+					<Id>1760106184438</Id>
+					<X>240</X><Y>600</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13647,10 +13454,10 @@
 				<Link SourceId="1760106184012" TargetId="1760106183864" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>470</X><Y>-174</Y></Direction>
+					<Direction><X>470</X><Y>-264</Y></Direction>
 					<Id>1760106184444</Id>
 					<Name><![CDATA[m15_20 - poblacionJoven]]></Name>
-					<X>450</X><Y>514</Y>
+					<X>450</X><Y>604</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13722,7 +13529,7 @@
 				<Link SourceId="1760106184084" TargetId="1760106184762" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>-470</X><Y>240</Y></Direction>
+					<Direction><X>-470</X><Y>270</Y></Direction>
 					<Id>1760106184454</Id>
 					<Name><![CDATA[mortPoblacionJoven - flow70]]></Name>
 					<X>920</X><Y>380</Y>
@@ -14784,13 +14591,13 @@
 					<LineWidth>1</LineWidth>
 					<Delay>false</Delay>
 				</Link>
-				<Link SourceId="1760908871323" TargetId="1760106184814" Polarity="null">
+				<Link SourceId="1760106184068" TargetId="1760106184814" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>80</X><Y>-160</Y></Direction>
+					<Direction><X>90</X><Y>-150</Y></Direction>
 					<Id>1760106184596</Id>
-					<Name><![CDATA[salarioPromedioJoven - tasaRecaudacion]]></Name>
-					<X>360</X><Y>-110</Y>
+					<Name><![CDATA[salarioPromedioMensualJoven - tasaRecaudacion]]></Name>
+					<X>350</X><Y>-120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14817,10 +14624,10 @@
 				<Link SourceId="1760106184012" TargetId="1760106183862" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>350</X><Y>-174</Y></Direction>
+					<Direction><X>350</X><Y>-264</Y></Direction>
 					<Id>1760106184600</Id>
 					<Name><![CDATA[m15_20 - poblacionInfantil]]></Name>
-					<X>450</X><Y>514</Y>
+					<X>450</X><Y>604</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14844,13 +14651,13 @@
 					<LineWidth>1</LineWidth>
 					<Delay>false</Delay>
 				</Link>
-				<Link SourceId="1760908888971" TargetId="1760106184814" Polarity="null">
+				<Link SourceId="1760106184100" TargetId="1760106184814" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>-50</X><Y>-170</Y></Direction>
+					<Direction><X>0</X><Y>-150</Y></Direction>
 					<Id>1760106184604</Id>
-					<Name><![CDATA[salarioPromedioAdulta - tasaRecaudacion]]></Name>
-					<X>490</X><Y>-100</Y>
+					<Name><![CDATA[salarioPromedioMensualAdulta - tasaRecaudacion]]></Name>
+					<X>440</X><Y>-120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14862,10 +14669,10 @@
 				<Link SourceId="1760106184112" TargetId="1760106184816" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>-70</X><Y>-130</Y></Direction>
+					<Direction><X>-170</X><Y>-170</Y></Direction>
 					<Id>1760106184606</Id>
 					<Name><![CDATA[gastoPromedioJoven - tasaDeGastos]]></Name>
-					<X>1060</X><Y>-140</Y>
+					<X>1160</X><Y>-100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14892,10 +14699,10 @@
 				<Link SourceId="1760106184116" TargetId="1760106184816" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>130</X><Y>-150</Y></Direction>
+					<Direction><X>90</X><Y>-230</Y></Direction>
 					<Id>1760106184610</Id>
 					<Name><![CDATA[gastoPromedioAdulta - tasaDeGastos]]></Name>
-					<X>860</X><Y>-120</Y>
+					<X>900</X><Y>-40</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14907,10 +14714,10 @@
 				<Link SourceId="1760106184108" TargetId="1760106184816" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>30</X><Y>-140</Y></Direction>
+					<Direction><X>-40</X><Y>-170</Y></Direction>
 					<Id>1760106184612</Id>
 					<Name><![CDATA[gastoPromedioInfantil - tasaDeGastos]]></Name>
-					<X>960</X><Y>-130</Y>
+					<X>1030</X><Y>-100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14922,10 +14729,10 @@
 				<Link SourceId="1760106184104" TargetId="1760106184816" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>150</X><Y>-110</Y></Direction>
+					<Direction><X>80</X><Y>-170</Y></Direction>
 					<Id>1760106184614</Id>
 					<Name><![CDATA[gastoPromedioPrematura - tasaDeGastos]]></Name>
-					<X>840</X><Y>-160</Y>
+					<X>910</X><Y>-100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14952,10 +14759,10 @@
 				<Link SourceId="1760106184124" TargetId="1760106184816" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>-140</X><Y>-200</Y></Direction>
+					<Direction><X>-180</X><Y>-220</Y></Direction>
 					<Id>1760106184618</Id>
-					<Name><![CDATA[gastoPromedioAdultaMuyMayor - tasaDeGastos]]></Name>
-					<X>1130</X><Y>-70</Y>
+					<Name><![CDATA[gastoPromedioMuyVieja - tasaDeGastos]]></Name>
+					<X>1170</X><Y>-50</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15012,10 +14819,10 @@
 				<Link SourceId="1760106184120" TargetId="1760106184816" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>0</X><Y>-210</Y></Direction>
+					<Direction><X>-40</X><Y>-230</Y></Direction>
 					<Id>1760106184626</Id>
-					<Name><![CDATA[gastoPromedioAdultaMayor - tasaDeGastos]]></Name>
-					<X>990</X><Y>-60</Y>
+					<Name><![CDATA[gastoPromedioVieja - tasaDeGastos]]></Name>
+					<X>1030</X><Y>-40</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15087,7 +14894,7 @@
 				<Link SourceId="1760106183852" TargetId="1760106258797" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>960</X><Y>-800</Y></Direction>
+					<Direction><X>820</X><Y>-780</Y></Direction>
 					<Id>1760106391001</Id>
 					<Name><![CDATA[Poblacion - relacionDependientesActivos]]></Name>
 					<X>400</X><Y>340</Y>
@@ -15095,14 +14902,14 @@
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
-					<Color>-1</Color>
+					<Color/>
 					<LineWidth>1</LineWidth>
 					<Delay>false</Delay>
 				</Link>
 				<Link SourceId="1760106183872" TargetId="1760106258797" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>80</X><Y>-800</Y></Direction>
+					<Direction><X>-60</X><Y>-780</Y></Direction>
 					<Id>1760106391002</Id>
 					<Name><![CDATA[poblacionActiva - relacionDependientesActivos]]></Name>
 					<X>1280</X><Y>340</Y>
@@ -15110,17 +14917,17 @@
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
-					<Color>-1</Color>
+					<Color/>
 					<LineWidth>1</LineWidth>
 					<Delay>false</Delay>
 				</Link>
 				<Link SourceId="1760810760895" TargetId="1760106184816" Polarity="null">
 					<Height>-51.763</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>-30</X><Y>110</Y></Direction>
+					<Direction><X>-390</X><Y>70</Y></Direction>
 					<Id>1760147370611</Id>
 					<Name><![CDATA[proporcionSaludPublica - tasaDeGastos]]></Name>
-					<X>1020</X><Y>-380</Y>
+					<X>1380</X><Y>-340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15132,15 +14939,15 @@
 				<Link SourceId="1760810760895" TargetId="1760106258797" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>340</X><Y>-80</Y></Direction>
+					<Direction><X>-160</X><Y>-100</Y></Direction>
 					<Id>1760147427956</Id>
 					<Name><![CDATA[proporcionSaludPublica - relacionDependientesActivos]]></Name>
-					<X>1020</X><Y>-380</Y>
+					<X>1380</X><Y>-340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
-					<Color>-1</Color>
+					<Color/>
 					<LineWidth>1</LineWidth>
 					<Delay>false</Delay>
 				</Link>
@@ -15162,10 +14969,10 @@
 				<Link SourceId="1760810870462" TargetId="1760106184814" Polarity="null">
 					<Height>38.121</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>300</X><Y>40</Y></Direction>
+					<Direction><X>310</X><Y>-10</Y></Direction>
 					<Id>1760810984497</Id>
 					<Name><![CDATA[tasaDesempleo - tasaRecaudacion]]></Name>
-					<X>140</X><Y>-310</Y>
+					<X>130</X><Y>-260</Y>
 					<Label><X>40</X><Y>-50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15192,10 +14999,10 @@
 				<Link SourceId="1760812408624" TargetId="1760106184814" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>230</X><Y>-60</Y></Direction>
+					<Direction><X>310</X><Y>-150</Y></Direction>
 					<Id>1760813717900</Id>
 					<Name><![CDATA[proporcionEmpleoFormal - tasaRecaudacion]]></Name>
-					<X>210</X><Y>-210</Y>
+					<X>130</X><Y>-120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15207,25 +15014,10 @@
 				<Link SourceId="1760106184008" TargetId="1760106183862" Polarity="null">
 					<Height>20.0</Height>
 					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>540</X><Y>-174</Y></Direction>
+					<Direction><X>540</X><Y>-264</Y></Direction>
 					<Id>1760813858104</Id>
 					<Name><![CDATA[m5_10 - poblacionInfantil]]></Name>
-					<X>260</X><Y>514</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<Color/>
-					<LineWidth>1</LineWidth>
-					<Delay>false</Delay>
-				</Link>
-				<Link SourceId="1760842368520" TargetId="1760106184814" Polarity="null">
-					<Height>20.0</Height>
-					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>0</X><Y>130</Y></Direction>
-					<Id>1760842388938</Id>
-					<Name><![CDATA[tasaContribucionInformalesRelativa - tasaRecaudacion]]></Name>
-					<X>440</X><Y>-400</Y>
+					<X>260</X><Y>604</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15271,11 +15063,9 @@
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Properties Width="100" Height="30">
-						<EntryAction><![CDATA[tasaDesempleo = tasaDesempleoInicial * factorCambioTasaEmpleo_Normal; 
+						<EntryAction><![CDATA[tasaContribucion = tasaContribucionInicial * factorCambioSalarioPromedio_Normal;
 
-salarioPromedioJoven = salarioPromedioJovenInicial * factorCambioSalarioPromedio_Normal;
- 
-salarioPromedioAdulta = salarioPromedioAdultaInicial * factorCambioSalarioPromedio_Normal;]]></EntryAction>
+mortPrematura = mortPrematuraInicial * factorCambioMortalidad_Normal;]]></EntryAction>
 						<FillColor/>
 					</Properties>
 				</StatechartElement>
@@ -15288,11 +15078,9 @@ salarioPromedioAdulta = salarioPromedioAdultaInicial * factorCambioSalarioPromed
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Properties Width="100" Height="30">
-						<EntryAction><![CDATA[tasaDesempleo = tasaDesempleoInicial * factorCambioTasaEmpleo_Expansion; 
+						<EntryAction><![CDATA[tasaContribucion = tasaContribucionInicial * factorCambioSalarioPromedio_Expansion;
 
-salarioPromedioJoven = salarioPromedioJovenInicial * factorCambioSalarioPromedio_Expansion;
- 
-salarioPromedioAdulta = salarioPromedioAdultaInicial * factorCambioSalarioPromedio_Expansion;]]></EntryAction>
+mortPrematura = mortPrematuraInicial * factorCambioMortalidad_Expansion;]]></EntryAction>
 						<FillColor/>
 					</Properties>
 				</StatechartElement>
@@ -15305,11 +15093,6 @@ salarioPromedioAdulta = salarioPromedioAdultaInicial * factorCambioSalarioPromed
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Properties Width="100" Height="30">
-						<EntryAction><![CDATA[tasaDesempleo = tasaDesempleoInicial * factorCambioTasaEmpleo_Recesion; 
-
-salarioPromedioJoven = salarioPromedioJovenInicial * factorCambioSalarioPromedio_Recesion;
- 
-salarioPromedioAdulta = salarioPromedioAdultaInicial * factorCambioSalarioPromedio_Recesion;]]></EntryAction>
 						<FillColor/>
 					</Properties>
 				</StatechartElement>
@@ -15322,11 +15105,6 @@ salarioPromedioAdulta = salarioPromedioAdultaInicial * factorCambioSalarioPromed
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Properties Width="100" Height="30">
-						<EntryAction><![CDATA[tasaDesempleo = tasaDesempleoInicial * factorCambioTasaEmpleo_Crisis; 
-
-salarioPromedioJoven = salarioPromedioJovenInicial * factorCambioSalarioPromedio_Crisis;
- 
-salarioPromedioAdulta = salarioPromedioAdultaInicial * factorCambioSalarioPromedio_Crisis;]]></EntryAction>
 						<FillColor/>
 					</Properties>
 				</StatechartElement>
@@ -15640,25 +15418,24 @@ salarioPromedioAdulta = salarioPromedioAdultaInicial * factorCambioSalarioPromed
 if (cadenaMarkovEconomia.isStateActive(Normal)) {
     if (rand < pNormalToExpansion) {
         cadenaMarkovEconomia.fireEvent("transicionNormalToExpansion");
-    } else if (rand < pNormalToExpansion + pNormalToRecesion) {   
+    } else if (rand < pNormalToExpansion + 0.20) {   
         cadenaMarkovEconomia.fireEvent("transicionNormalToRecesion");
     }
-    // Si no, se queda en Normal, la probabilidad está implicita. 
-    // pNormalToNormal = 1 - Sumatoria del resto. 
+    // Si no, se queda en Normal (no hacés nada)
 
 } else if (cadenaMarkovEconomia.isStateActive(Expansion)) {
-    if (rand < pExpansioToNormal) {
+    if (rand < 0.08) {
         cadenaMarkovEconomia.fireEvent("transicionExpansionToNormal");
     }
 
 } else if (cadenaMarkovEconomia.isStateActive(Recesion)) {
-    if (rand < pRecesionToNormal) {
+    if (rand < 0.05) {
         cadenaMarkovEconomia.fireEvent("transicionRecesionToNormal");
-    } else if (rand < pRecesionToNormal + pRcesionToCrisis){
+    } else if (rand < 0.90){
     	cadenaMarkovEconomia.fireEvent("transicionRecesionToCrisis");
     	}
 }else if (cadenaMarkovEconomia.isStateActive(Crisis)) {
-    if (rand < pCrisisToRecesion) {
+    if (rand < 0.20) {
         cadenaMarkovEconomia.fireEvent("transicionCrisisToRecesion");
     }
 }
@@ -16360,7 +16137,7 @@ if (cadenaMarkovEconomia.isStateActive(Normal)) {
 				<Group>
 					<Id>1760106183946</Id>
 					<Name><![CDATA[group]]></Name>
-					<X>740</X><Y>-50</Y>
+					<X>1350</X><Y>-60</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16494,7 +16271,7 @@ if (cadenaMarkovEconomia.isStateActive(Normal)) {
 
 		</ActiveObjectClass>
 	</ActiveObjectClasses>
-	<DifferentialEquationsMethod>RK4</DifferentialEquationsMethod>
+	<DifferentialEquationsMethod>EULER</DifferentialEquationsMethod>
 	<MixedEquationsMethod>RK45_NEWTON</MixedEquationsMethod>
 	<AlgebraicEquationsMethod>MODIFIED_NEWTON</AlgebraicEquationsMethod>
 	<AbsoluteAccuracy>1.0E-5</AbsoluteAccuracy>
@@ -16581,6 +16358,9 @@ if (cadenaMarkovEconomia.isStateActive(Normal)) {
 
 			<Parameters>
 				<Parameter>
+					<ParameterName><![CDATA[salarioPromedioMensualJoven]]></ParameterName>
+				</Parameter>
+				<Parameter>
 					<ParameterName><![CDATA[mortInfantil]]></ParameterName>
 				</Parameter>
 				<Parameter>
@@ -16596,6 +16376,9 @@ if (cadenaMarkovEconomia.isStateActive(Normal)) {
 					<ParameterName><![CDATA[mortPoblacionMuyVieja]]></ParameterName>
 				</Parameter>
 				<Parameter>
+					<ParameterName><![CDATA[salarioPromedioMensualAdulta]]></ParameterName>
+				</Parameter>
+				<Parameter>
 					<ParameterName><![CDATA[gastoPromedioPrematura]]></ParameterName>
 				</Parameter>
 				<Parameter>
@@ -16608,10 +16391,10 @@ if (cadenaMarkovEconomia.isStateActive(Normal)) {
 					<ParameterName><![CDATA[gastoPromedioAdulta]]></ParameterName>
 				</Parameter>
 				<Parameter>
-					<ParameterName><![CDATA[gastoPromedioAdultaMayor]]></ParameterName>
+					<ParameterName><![CDATA[gastoPromedioVieja]]></ParameterName>
 				</Parameter>
 				<Parameter>
-					<ParameterName><![CDATA[gastoPromedioAdultaMuyMayor]]></ParameterName>
+					<ParameterName><![CDATA[gastoPromedioMuyVieja]]></ParameterName>
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[tasaNacimientos]]></ParameterName>
@@ -16629,6 +16412,12 @@ if (cadenaMarkovEconomia.isStateActive(Normal)) {
 					<ParameterName><![CDATA[factorCambioSalarioPromedio_Expansion]]></ParameterName>
 				</Parameter>
 				<Parameter>
+					<ParameterName><![CDATA[factorCambioMortalidad_Normal]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[factorCambioMortalidad_Expansion]]></ParameterName>
+				</Parameter>
+				<Parameter>
 					<ParameterName><![CDATA[mortPrematuraInicial]]></ParameterName>
 				</Parameter>
 				<Parameter>
@@ -16639,45 +16428,6 @@ if (cadenaMarkovEconomia.isStateActive(Normal)) {
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[proporcionEmpleoFormal]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[tasaContribucionInformalesRelativa]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[mortPrematura]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[salarioPromedioJovenInicial]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[salarioPromedioAdultaInicial]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[pExpansionToNormal]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[pNormalToRecesion]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[factorCambioSalarioPromedio_Recesion]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[pRecesionToNormal]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[pRecesionToCrisis]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[factorCambioSalarioPromedio_Crisis]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[pCrisisToRecesion]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[factorCambioTasaEmpleo_Normal]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[factorCambioTasaEmpleo_Recesion]]></ParameterName>
 				</Parameter>
 			</Parameters>
 			<PresentationProperties>
